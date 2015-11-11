@@ -1,0 +1,65 @@
+head {
+    font-family: monospace, "STKaiti";
+}
+body{
+    -webkit-writing-mode:vertical-rl;
+}
+.outerBox{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 500px;
+    height: 500px;
+    border: black solid 3px;
+    font-family: monospace, "STKaiti";
+}
+
+.headBox{
+    position: absolute;
+    right:0;
+    border-left: solid 1px;
+    width: 20%;
+    height: 100%;
+}
+
+.headBox .title{
+    float: left;
+    width: 100%;
+    font-size: 38px;
+}
+
+.headBox .title .hanzi{
+    position: relative;
+    left: 0;
+}
+
+.headBox .title .pinyin{
+    position: relative;
+    right: 0;
+}
+
+.headBox .pinyin span{
+    -ms-text-combine : horizontal;
+    -webkit-text-combine : horizontal;
+    text-combine : horizontal;
+}
+
+.headBox .author{
+    float: left;
+    width: 100%;
+}
+
+.contentBox{
+    font-size: 40px;
+    margin-right: 20%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.footBox{
+    position: absolute;
+    left:0;
+    border-right: solid 1px;
+    width: 10%;
+    height: 100%;
+}
