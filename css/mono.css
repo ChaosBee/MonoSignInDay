@@ -24,8 +24,10 @@ body{
 
 .headBox .title{
     float: left;
+    padding-top: 10px;
     width: 100%;
-    font-size: 38px;
+    height: 30%;
+    font-size: 36px;
 }
 
 .headBox .title .hanzi{
@@ -44,16 +46,46 @@ body{
     text-combine : horizontal;
 }
 
-.headBox .author{
+.headBox .name{
     float: left;
-    width: 100%;
+    -webkit-writing-mode: horizontal-bt;
+    margin: 0 5px;
+    width: 90%;
+}
+
+.headBox span{
+    margin: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+    -ms-text-combine : horizontal;
+    -webkit-text-combine : horizontal;
+    text-combine : horizontal;
+}
+
+.headBox .author{
+    font-size: 25px;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    width: 30%;
 }
 
 .contentBox{
     font-size: 40px;
-    margin-right: 20%;
+    margin: 8% 20% 10% 8%;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.contentBox p{
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    width: 50%;
 }
 
 .footBox{
@@ -62,4 +94,30 @@ body{
     border-right: solid 1px;
     width: 10%;
     height: 100%;
+    font-size: 24px;
+}
+
+.footBox .date {
+    font-size: 25px;
+    margin: 0 auto;
+    position: absolute;
+    top: 3%;
+    left: 0;
+    right: 0;
+    width: 50%;
+}
+
+.footBox .sign{
+    border: red solid 1px;
+    color:red;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+}
+
+span{
+    margin-top: 5px;
 }
